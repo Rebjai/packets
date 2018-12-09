@@ -74,6 +74,6 @@ async function loadPackages() {
     }
   );
 
-  return client.db("packages-db").collection("packages");
+  return client.db("a-test-db").collection("packages");
 }
 module.exports = router;
